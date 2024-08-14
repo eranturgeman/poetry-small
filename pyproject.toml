@@ -11,6 +11,11 @@ numpy = "^1.23.0"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 
+[[tool.poetry.source]]
+name = "devPython-remote"
+url = "https://z0devmaster.jfrogdev.org/artifactory/devPython-remote/"
+priority = "primary"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
